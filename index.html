@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BrightMind Tuition - Online tuition for Classes 1 to 5 with all major subjects.">
+  <title>BrightMind Tuition | Classes 1–5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#home" class="logo"><span>✦</span> BrightMind <small>Tuition</small></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#classes">Classes</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#about">About</a>
+    <a href="#admission">Admission</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="badge">🌟 Online Tuition for Classes 1–5</div>
+      <h1>Learning made <span>simple, fun & smart.</span></h1>
+      <p>Friendly online tuition for young learners with clear explanations, regular practice and all-round academic support.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#admission">Join a Class →</a>
+        <a class="btn secondary" href="#classes">Explore Classes</a>
+      </div>
+      <div class="mini-points">
+        <span>✓ Class 1–5</span>
+        <span>✓ All Major Subjects</span>
+        <span>✓ Online Learning</span>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="study-icon">📚</div>
+      <h3>Learn • Practice • Grow</h3>
+      <p>Concepts explained step-by-step in a child-friendly way.</p>
+      <div class="progress"><span></span></div>
+      <small>Every small step builds confidence.</small>
+    </div>
+  </section>
+
+  <section class="section" id="classes">
+    <div class="section-title">
+      <span>OUR CLASSES</span>
+      <h2>Choose your class</h2>
+      <p>Class-wise learning designed for primary students.</p>
+    </div>
+    <div class="cards class-grid">
+      <article class="card class-card"><div>1️⃣</div><h3>Class 1</h3><p>Build strong basics through simple and engaging lessons.</p><a href="#admission">Enquire →</a></article>
+      <article class="card class-card"><div>2️⃣</div><h3>Class 2</h3><p>Strengthen reading, writing, maths and everyday concepts.</p><a href="#admission">Enquire →</a></article>
+      <article class="card class-card"><div>3️⃣</div><h3>Class 3</h3><p>Learn concepts clearly and practise them with confidence.</p><a href="#admission">Enquire →</a></article>
+      <article class="card class-card"><div>4️⃣</div><h3>Class 4</h3><p>Focused practice and support for stronger school performance.</p><a href="#admission">Enquire →</a></article>
+      <article class="card class-card"><div>5️⃣</div><h3>Class 5</h3><p>Build a strong foundation for the next stage of learning.</p><a href="#admission">Enquire →</a></article>
+    </div>
+  </section>
+
+  <section class="section soft" id="subjects">
+    <div class="section-title">
+      <span>ALL MAJOR SUBJECTS</span>
+      <h2>Learn what you need</h2>
+      <p>Subject support can be tailored to the student's class and needs.</p>
+    </div>
+    <div class="cards subject-grid">
+      <article class="card subject"><b>🔢</b><h3>Mathematics</h3><p>Numbers, calculations, word problems and logical thinking.</p></article>
+      <article class="card subject"><b>📖</b><h3>English</h3><p>Grammar, vocabulary, reading, writing and comprehension.</p></article>
+      <article class="card subject"><b>🪶</b><h3>Hindi</h3><p>Reading, writing, grammar and language practice.</p></article>
+      <article class="card subject"><b>🌱</b><h3>EVS</h3><p>Plants, animals, people, surroundings and everyday science.</p></article>
+      <article class="card subject"><b>🌍</b><h3>General Knowledge</h3><p>Age-appropriate awareness and interesting facts.</p></article>
+      <article class="card subject"><b>💻</b><h3>Basic Computer</h3><p>Beginner-friendly computer concepts and digital basics.</p></article>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="about-box">
+      <div class="about-visual">🎓</div>
+      <div>
+        <span class="eyebrow">WHY BRIGHTMIND?</span>
+        <h2>A friendly place to learn with confidence.</h2>
+        <p>BrightMind Tuition is designed for Classes 1–5. The focus is on understanding concepts rather than memorising answers, with regular practice and supportive guidance.</p>
+        <div class="features">
+          <div>✓ Simple explanations</div>
+          <div>✓ Class-wise learning</div>
+          <div>✓ Practice & revision</div>
+          <div>✓ Doubt support</div>
+          <div>✓ Parent-friendly communication</div>
+          <div>✓ Online from home</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section admission" id="admission">
+    <div class="section-title">
+      <span>ADMISSION / ENQUIRY</span>
+      <h2>Start your child's learning journey</h2>
+      <p>Fill in the details below. After submission, you can contact the teacher directly.</p>
+    </div>
+    <form class="form" id="enquiryForm">
+      <div class="form-grid">
+        <label>Parent/Student Name
+          <input id="name" type="text" placeholder="Enter name" required>
+        </label>
+        <label>Class
+          <select id="className" required>
+            <option value="">Select class</option>
+            <option>Class 1</option><option>Class 2</option><option>Class 3</option>
+            <option>Class 4</option><option>Class 5</option>
+          </select>
+        </label>
+        <label>Subject
+          <select id="subject" required>
+            <option value="">Select subject</option>
+            <option>All Subjects</option><option>Mathematics</option><option>English</option>
+            <option>Hindi</option><option>EVS</option><option>General Knowledge</option><option>Basic Computer</option>
+          </select>
+        </label>
+        <label>Preferred Mode
+          <select id="mode">
+            <option>Online</option>
+            <option>Need details</option>
+          </select>
+        </label>
+      </div>
+      <button class="btn primary" type="submit">Send Enquiry</button>
+      <p class="form-note">Tip: add your WhatsApp number in the code to make the enquiry button send messages directly to you.</p>
+      <div id="formMessage" class="form-message"></div>
+    </form>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-box">
+      <div>
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h2>Ready to begin?</h2>
+        <p>For admission, fees, class timings or any other details, contact BrightMind Tuition.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn primary" href="#admission">Admission Enquiry</a>
+        <a class="btn secondary" href="tel:+910000000000">📞 Call Teacher</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="footer">
+  <div class="footer-logo">✦ BrightMind Tuition</div>
+  <p>Online Tuition for Classes 1–5 • Learn • Practice • Grow</p>
+  <p class="copyright">© 2026 BrightMind Tuition. All rights reserved.</p>
+</footer>
+
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const nav = document.getElementById("nav");
+  menuBtn.addEventListener("click", () => nav.classList.toggle("open"));
+  document.querySelectorAll("#nav a").forEach(a => a.addEventListener("click", () => nav.classList.remove("open")));
+
+  document.getElementById("enquiryForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value.trim();
+    const cls = document.getElementById("className").value;
+    const subject = document.getElementById("subject").value;
+    const mode = document.getElementById("mode").value;
+    const message = `Hello BrightMind Tuition! I want an enquiry.%0AName: ${encodeURIComponent(name)}%0AClass: ${encodeURIComponent(cls)}%0ASubject: ${encodeURIComponent(subject)}%0AMode: ${encodeURIComponent(mode)}`;
+
+    // Replace 91XXXXXXXXXX with your real WhatsApp number, including country code.
+    const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+
+    if (WHATSAPP_NUMBER !== "91XXXXXXXXXX") {
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
+    } else {
+      document.getElementById("formMessage").textContent =
+        "Enquiry saved on this page. Add your WhatsApp number in index.html to enable direct WhatsApp enquiries.";
+    }
+  });
+</script>
+</body>
+</html>
